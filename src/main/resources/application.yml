@@ -20,6 +20,25 @@ spring:
     # schema:
     ##插入数据的MySql语句的位置
     # data:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties:
+      hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+
+swagger:
+  title: ${spring.application.name}
+  description: ${spring.application.name}接口文档
+  version: 1.0.0
+  termsOfServiceUrl: http://localhost:8000/doc.html
+  contact:
+    name: zglong
+    url: http://localhost:8000/doc.html
+    email: zglong182@qq.com
+
 
 
 #************H2  Begin****************
