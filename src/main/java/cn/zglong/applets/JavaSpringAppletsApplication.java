@@ -1,7 +1,7 @@
 package cn.zglong.applets;
 
 
-import cn.zglong.applets.app.AppFactory;
+import cn.zglong.applets.app.example.AppFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;

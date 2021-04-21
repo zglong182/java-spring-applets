@@ -1,9 +1,8 @@
-package cn.zglong.applets.app.repository;
+package cn.zglong.applets.app.example.repository;
 
 
 import cn.zglong.applets.base.BaseRepository;
-import cn.zglong.applets.app.entity.AppEntity;
-import cn.zglong.applets.app.entity.TodoEntity;
+import cn.zglong.applets.app.example.entity.AppEntity;
 import org.springframework.stereotype.Repository;
 
 

@@ -1,10 +1,10 @@
-package cn.zglong.applets.app.controller;
+package cn.zglong.applets.app.example.controller;
 
 
 import cn.zglong.applets.base.BaseController;
 import cn.zglong.applets.base.BaseService;
-import cn.zglong.applets.app.entity.AppEntity;
-import cn.zglong.applets.app.service.AppService;
+import cn.zglong.applets.app.example.entity.AppEntity;
+import cn.zglong.applets.app.example.service.AppService;
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,7 +1,6 @@
 package cn.zglong.applets.base;
 
 
-import cn.zglong.applets.app.entity.AppEntity;
 import cn.zglong.applets.result.Results;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

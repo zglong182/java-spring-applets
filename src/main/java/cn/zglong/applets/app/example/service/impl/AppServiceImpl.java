@@ -1,12 +1,10 @@
-package cn.zglong.applets.app.service.impl;
+package cn.zglong.applets.app.example.service.impl;
 
 
 import cn.zglong.applets.base.BaseRepository;
-import cn.zglong.applets.app.entity.AppEntity;
-import cn.zglong.applets.app.entity.TodoEntity;
-import cn.zglong.applets.app.repository.AppRepository;
-import cn.zglong.applets.app.repository.TodoRepository;
-import cn.zglong.applets.app.service.AppService;
+import cn.zglong.applets.app.example.entity.AppEntity;
+import cn.zglong.applets.app.example.repository.AppRepository;
+import cn.zglong.applets.app.example.service.AppService;
 import org.springframework.stereotype.Service;
 
 

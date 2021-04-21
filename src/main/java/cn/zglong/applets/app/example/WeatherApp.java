@@ -1,4 +1,4 @@
-package cn.zglong.applets.app;
+package cn.zglong.applets.app.example;
 
 
 import lombok.extern.slf4j.Slf4j;
@@ -12,21 +12,21 @@ import org.springframework.stereotype.Component;
  */
 @Slf4j
 @Component
-public class TodoApp implements Application {
+public class WeatherApp implements Application {
     @Override
     public void get() {
-        log.info("这是待办应用");
+        log.info("这是天气应用");
     }
 
 
     @Override
     public Object getObject() throws Exception {
-        return new TodoApp();
+        return new WeatherApp();
     }
 
 
     @Override
     public Class<?> getObjectType() {
-        return TodoApp.class;
+        return WeatherApp.class;
     }
 }

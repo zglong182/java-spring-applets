@@ -1,4 +1,4 @@
-package cn.zglong.applets.app.entity;
+package cn.zglong.applets.app.id;
 
 
 import lombok.Data;
@@ -8,19 +8,21 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.util.List;
 
 
 /**
- * @author zglong
- * @version 1.0
- * @date 2021/2/21 0:09
- */
+ * @Classname IdGenerateEntity
+ * @description:
+ * @author: zglong
+ * @create: 2021-04-21 11:45
+ **/
 @Data
 @Entity
-@Table(name = "app_todo")
-public class AppEntity {
+@Table(name = "app_id_generate")
+public class IDGenerateEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String name;
+    private String ip;
 }

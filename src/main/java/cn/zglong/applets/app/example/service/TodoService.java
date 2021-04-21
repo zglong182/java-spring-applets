@@ -1,9 +1,8 @@
-package cn.zglong.applets.app.service;
+package cn.zglong.applets.app.example.service;
 
 
 import cn.zglong.applets.base.BaseService;
-import cn.zglong.applets.app.entity.AppEntity;
-import cn.zglong.applets.app.entity.TodoEntity;
+import cn.zglong.applets.app.example.entity.TodoEntity;
 
 
 /**

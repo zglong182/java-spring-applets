@@ -1,4 +1,4 @@
-package cn.zglong.applets.app.entity;
+package cn.zglong.applets.app.example.entity;
 
 
 import lombok.Data;
@@ -17,8 +17,8 @@ import javax.persistence.Table;
  */
 @Data
 @Entity
-@Table(name = "app_app")
-public class TodoEntity {
+@Table(name = "app_todo")
+public class AppEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

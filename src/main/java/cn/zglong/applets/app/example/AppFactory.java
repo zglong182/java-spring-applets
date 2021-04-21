@@ -1,4 +1,4 @@
-package cn.zglong.applets.app;
+package cn.zglong.applets.app.example;
 
 
 /**

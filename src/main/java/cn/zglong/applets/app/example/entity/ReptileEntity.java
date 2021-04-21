@@ -1,4 +1,4 @@
-package cn.zglong.applets.app.entity;
+package cn.zglong.applets.app.example.entity;
 
 
 import lombok.Data;

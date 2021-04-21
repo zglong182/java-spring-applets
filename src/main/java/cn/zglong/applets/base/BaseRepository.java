@@ -1,7 +1,6 @@
 package cn.zglong.applets.base;
 
 
-import cn.zglong.applets.app.entity.AppEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.NoRepositoryBean;
 

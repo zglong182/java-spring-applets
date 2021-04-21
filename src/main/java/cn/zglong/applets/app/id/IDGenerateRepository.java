@@ -1,8 +1,7 @@
-package cn.zglong.applets.app.repository;
+package cn.zglong.applets.app.id;
 
 
 import cn.zglong.applets.base.BaseRepository;
-import cn.zglong.applets.app.entity.TodoEntity;
 import org.springframework.stereotype.Repository;
 
 
@@ -12,5 +11,5 @@ import org.springframework.stereotype.Repository;
  * @date 2021/2/21 0:10
  */
 @Repository
-public interface TodoRepository extends BaseRepository<TodoEntity, Long> {
+public interface IDGenerateRepository extends BaseRepository<IDGenerateEntity, Long> {
 }
