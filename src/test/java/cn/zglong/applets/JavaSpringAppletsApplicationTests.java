@@ -12,4 +12,5 @@ class JavaSpringAppletsApplicationTests {
     void contextLoads() {
     }
 
+
 }

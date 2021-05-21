@@ -2,6 +2,7 @@ package cn.zglong.applets.app.id;
 
 
 import cn.hutool.core.util.IdUtil;
+import cn.zglong.applets.utils.IMEIANDiMSI;
 import cn.zglong.applets.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -43,6 +44,10 @@ public class IDGenerateService {
         return UUIDList;
     }
 
+    public static void main(String[] args) {
+        IDGenerateService idGenerateService = new IDGenerateService();
+        System.out.println(idGenerateService.getObjId(5));
+    }
     public List<String> getObjId(int count) {
         List<String> objIds = new ArrayList<>();
         if (StringUtils.isNull(count)) {
@@ -52,5 +57,13 @@ public class IDGenerateService {
             objIds.add(IdUtil.objectId());
         }
         return objIds;
+    }
+
+    public List<String> getIMEI(Integer count) {
+        List<String> list = new ArrayList<>();
+        for (int i = 0; i < count; i++) {
+            list.add(IMEIANDiMSI.getIMEI());
+        }
+        return list;
     }
 }
