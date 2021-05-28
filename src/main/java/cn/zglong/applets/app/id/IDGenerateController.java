@@ -44,15 +44,15 @@ public class IDGenerateController {
     @GetMapping("/obj_id/{count}")
     @ApiOperation(value = "生成ObjectId", notes = "默认五个")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "count", value = "生成数量", dataType = "Integer", required = true)
+            @ApiImplicitParam(name = "count", value = "生成数量", dataType = "Integer", required = false)
     })
     public List<String> getObjId(@PathVariable(value = "count") Integer count) {
         return idGenerateService.getObjId(count);
     }
     @GetMapping("/imei/{count}")
-    @ApiOperation(value = "生成ObjectId", notes = "默认五个")
+    @ApiOperation(value = "imei", notes = "默认五个")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "count", value = "生成数量", dataType = "Integer", required = true)
+            @ApiImplicitParam(name = "count", value = "生成数量", dataType = "Integer", required = false)
     })
     public List<String> getIMEI(@PathVariable(value = "count") Integer count) {
         return idGenerateService.getIMEI(count);

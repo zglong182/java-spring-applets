@@ -60,7 +60,9 @@ public class IDGenerateService {
     }
 
     public List<String> getIMEI(Integer count) {
-        List<String> list = new ArrayList<>();
+        if (StringUtils.isNull(count)) {
+            count = 5;
+        }List<String> list = new ArrayList<>();
         for (int i = 0; i < count; i++) {
             list.add(IMEIANDiMSI.getIMEI());
         }
